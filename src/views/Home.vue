@@ -22,10 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Comprender el comportamiento del consumidor y la segmentación de mercados es esencial para diseñar estrategias de marketing efectivas que conecten con las necesidades y valores del público objetivo. En esta unidad, se explorarán los factores que influyen en las decisiones de compra, como los aspectos psicológicos, sociales y culturales, junto con métodos avanzados de segmentación que integran inteligencia artificial y análisis predictivo.
+              p.descripcion.mb-4 En un entorno laboral, la seguridad es un pilar fundamental para garantizar el bienestar de los trabajadores. Las brigadas de emergencia surgen como una estrategia clave para enfrentar situaciones de riesgo y responder de manera rápida y efectiva ante cualquier eventualidad que pueda poner en peligro la integridad de las personas o los bienes de una organización. Esta unidad profundiza en los conceptos esenciales de las brigadas de emergencia, abarcando su marco conceptual, la normativa vigente y los tipos de brigadas existentes.
 
 
-              p #[b Prepárese para analizar casos prácticos y desarrollar habilidades que te permitirán crear estrategias innovadoras en escenarios reales.]
+              p A través de este contenido, se busca fortalecer la capacidad de respuesta ante emergencias mediante la creación de equipos capacitados y la promoción de una cultura de prevención. #[b ¡Prepárate para liderar la seguridad en tu entorno laboral con eficacia y compromiso!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -73,7 +73,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-secundario
+    color: #E5782D
   .home-content
     background-color: white
   .info-section
@@ -148,12 +148,12 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #6DA4C3 !important
+    background-color: #E44B36 !important
     color: #0B0A0A !important
   .icon
     transition: all 0.25s ease-in-out
     // background-color: #083E61 !important
-    background-color: #3B596A !important
+    background-color: #8A4A2D !important
   &:hover
     .icon
       transform: scale(1.06)

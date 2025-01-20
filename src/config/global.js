@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '2',
-    tituloUnidad: ' Comportamiento del consumidor y segmentación de mercados',
+    numeroUnidad: '1',
+    tituloUnidad: 'Marco conceptual y normativo',
   },
   menuPrincipal: {
     menu: [
@@ -15,69 +15,60 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Comportamiento del consumidor y segmentación de mercados',
+        titulo: 'Marco conceptual y normativo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Factores que influyen en el comportamiento del consumidor',
-            hash: 't_1_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Segmentación de mercados: criterios y métodos',
+        titulo:
+          'Legislación y normatividad nacional aplicable a las brigadas de emergencia',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Criterios de segmentación',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Importancia de la segmentación de mercados',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Métodos avanzados de segmentación',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Identificación de mercados objetivo',
+        titulo: 'Conceptos básicos de las brigadas de emergencia',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Identificación de los tipos de brigadas de emergencia',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Selección y priorización de mercados objetivo',
-            hash: 't_3_1',
+            numero: '4.1',
+            titulo: 'Brigada de evacuación',
+            hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'Análisis de variables de rentabilidad, accesibilidad y crecimiento',
-            hash: 't_3_2',
+            numero: '4.2',
+            titulo: 'Brigada de primeros auxilios',
+            hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Herramientas de análisis y posicionamiento',
-            hash: 't_3_3',
+            numero: '4.3',
+            titulo: 'Brigada de prevención y combate de incendio',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo: 'Brigada de comunicación',
+            hash: 't_4_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.5',
+            titulo: 'Brigada de búsqueda y rescate',
+            hash: 't_4_5',
           },
         ],
       },
@@ -118,105 +109,138 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Ley 599 de 2000 - Gestor Normativo. (s. f.). Función Pública.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6388',
+    },
+    {
+      referencia: 'Resolución 2400 de 1979 Ministerio del Trabajo. (s. f.).',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=53565',
+    },
+    {
+      referencia:
+        'Ley 9 de 1979 Congreso de la República de Colombia. (s. f.).',
+      link: 'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=1177',
+    },
+    {
+      referencia:
+        'Congreso de Colombia (Julio 11 de 2012) Ley 1562 de 2012. Ministerio de Trabajo. Colombia.',
+      link: 'http://www.mintrabajo.gov.co/normatividad/leyes/2012.html',
+    },
+    {
+      referencia:
+        'República de Colombia. (Mayo 26 de 2015) Decreto 1072 de 2015. Ministerio de Trabajo. Colombia.',
+      link:
+        'http://www.mintrabajo.gov.co/normatividad/decreto-unico-reglamentario-trabajo.html',
+    },
+    {
+      referencia:
+        'Decreto Ley 1295 de 1994 - Gestor Normativo. (s. f.). Función Pública.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=2629',
+    },
+    {
+      referencia:
+        'Ley 1523 de 2012 - Gestor Normativo. (s. f.). Función Pública.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=47141',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (2019). Resolución 0312 de 2019: Estándares mínimos del sistema de la seguridad y salud en el trabajo.',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/59995826/Resolucion+0312-2019-+Estandares+minimos+del+Sistema+de+la+Seguridad+y+Salud.pdf',
+    },
+    {
+      referencia:
+        'Conesa Bernal, J. A. (2017). Emergencias y evacuación: ( ed.). Editorial ICB.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/59621?page=130',
+    },
+    {
+      referencia:
+        'Torres Nieto, H. (2012). Manual de primeros auxilios y brigadas de emergencia: ( ed.). Fundación Universitaria del Área Andina.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/70932?page=168',
     },
   ],
   glosario: [
     {
-      termino: 'Análisis predictivo',
+      termino: 'Brigada de Emergencias',
       significado:
-        'Técnica que utiliza datos, algoritmos y aprendizaje automático, para prever comportamientos futuros.',
+        'grupo de personas entrenadas para actuar en situaciones de emergencia, como incendios, desastres naturales o accidentes, con el objetivo de proteger vidas y bienes.',
     },
     {
-      termino: 'Big Data',
+      termino: 'Centro de Comando',
       significado:
-        'Conjunto de datos masivos y complejos que requieren herramientas avanzadas para su análisis y gestión.',
+        'lugar designado donde se coordinan las respuestas a la emergencia y se gestionan los recursos.',
     },
     {
-      termino: 'Clase social',
+      termino: 'Comunicación de Emergencia',
       significado:
-        'Nivel socioeconómico basado en ingresos, ocupación y educación, que influye en las decisiones de compra.',
+        'mecanismos y estrategias para informar a la población y a los equipos de respuesta sobre la situación de emergencia y las instrucciones a seguir.',
     },
     {
-      termino: 'Comportamiento del consumidor',
+      termino: 'Equipamiento de Emergencia',
       significado:
-        'Proceso mediante el cual las personas seleccionan, compran y usan bienes o servicios, para satisfacer necesidades.',
+        'herramientas y dispositivos utilizados por las brigadas para abordar diferentes tipos de emergencias, como extintores, equipos de rescate, botiquines de primeros auxilios, entre otros.',
     },
     {
-      termino: 'Economía circular',
+      termino: 'Evaluación de riesgos',
       significado:
-        'Modelo que busca reducir, reutilizar y reciclar recursos, para minimizar el impacto ambiental.',
+        'proceso de identificar, analizar y valorar los riesgos asociados a posibles situaciones de emergencia.',
     },
     {
-      termino: 'Inteligencia Artificial (IA)',
+      termino: 'Evacuación',
       significado:
-        'Tecnología que simula procesos humanos como aprendizaje y toma de decisiones, en sistemas computacionales.',
+        'proceso de mover a personas de un lugar peligroso a un lugar seguro.',
     },
     {
-      termino: 'Mapas de posicionamiento',
+      termino: 'Plan de Emergencias',
       significado:
-        'Herramientas visuales que representan la percepción del consumidor, sobre productos o marcas en relación con la competencia.',
+        'documento que contiene estrategias y procedimientos a seguir en caso de una emergencia para minimizar riesgos y coordinar acciones.',
     },
     {
-      termino: 'Marketing 4.0',
+      termino: 'Prevención',
       significado:
-        'Enfoque que combina estrategias tradicionales y digitales, centrado en la experiencia del cliente y la conectividad.',
+        'conjunto de acciones dirigidas a evitar que ocurran emergencias o desastres, o a reducir su impacto',
     },
     {
-      termino: 'Percepción',
+      termino: 'Primeros Auxilios',
       significado:
-        'Proceso mental mediante el cual los consumidores interpretan estímulos externos como productos, marcas o mensajes publicitarios.',
+        'asistencia inmediata que se proporciona a una persona lesionada o enferma antes de que llegue ayuda profesional.',
     },
     {
-      termino: 'Psicografía',
+      termino: 'Protocolos',
       significado:
-        'Segmentación basada en valores, estilo de vida y personalidad de los consumidores.',
+        'conjuntos de procedimientos establecidos que deben seguirse durante situaciones de emergencia.',
     },
     {
-      termino: 'Responsabilidad Social Corporativa (RSC)',
+      termino: 'Rescate',
       significado:
-        'Prácticas empresariales que integran objetivos sociales y ambientales, en su operación y estrategias.',
+        'acción de recuperar a personas que están en peligro, atrapadas o en una situación de emergencia.',
     },
     {
-      termino: 'Segmentación conductual',
+      termino: 'Respuesta a Emergencias',
       significado:
-        'Clasificación de consumidores, según su comportamiento, como frecuencia de uso, beneficios buscados o nivel de lealtad.',
+        'acciones implementadas inmediatamente después de una emergencia para controlar la situación y minimizar daños.',
     },
     {
-      termino: 'Segmentación demográfica',
+      termino: 'Simulacro',
       significado:
-        'División de mercados basada en características como edad, género, ingresos o estado civil.',
+        'ejercicio práctico que replica una situación de emergencia para entrenar a los miembros de la brigada y mejorar la efectividad de la respuesta.',
     },
     {
-      termino: 'Segmentación geográfica',
+      termino: 'Triaje',
       significado:
-        'División de mercados, según la ubicación física o características geográficas de los consumidores.',
+        'proceso de clasificar a las personas que requieren atención médica en función de la gravedad de sus lesiones o enfermedades durante una emergencia.',
     },
     {
-      termino: 'Segmentación psicográfica',
+      termino: 'Voluntariado',
       significado:
-        'Segmentación que estudia los valores, intereses, actitudes y estilo de vida, de los consumidores.',
-    },
-    {
-      termino: 'Sostenibilidad',
-      significado:
-        'Capacidad de satisfacer las necesidades presentes sin comprometer los recursos, para generaciones futuras.',
-    },
-    {
-      termino: 'Tendencias de consumo',
-      significado:
-        'Cambios en los hábitos y preferencias de compra, influenciados por factores sociales, culturales y tecnológicos.',
-    },
-    {
-      termino: 'Valor percibido',
-      significado:
-        'Evaluación subjetiva de los consumidores, sobre los beneficios y costos de un producto o servicio.',
-    },
-    {
-      termino: 'Variables de segmentación',
-      significado:
-        'Factores utilizados para dividir un mercado en segmentos, como demografía, geografía, psicografía y comportamiento.',
+        'personas que ofrecen su tiempo y habilidades para ayudar en situaciones de emergencia, a menudo sin remuneración',
     },
   ],
 }
