@@ -470,4 +470,181 @@
               img(src="@/assets/curso/tema4/17.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 La comprensión y clasificación de los diferentes tipos de brigadas de emergencia es fundamental para asegurar una respuesta efectiva y coordinada ante situaciones de crisis.
+
+      .bg-full-width.border-top.actividad.bg-color-actividad
+        .p-4.p-md-5
+          #Actividad                
+            <Actividad :cuestionario="cuestionario"/>
 </template>
+
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Conceptos básicos de las brigadas de emergencia',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál de los siguientes elementos NO es parte de una brigada de emergencia?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Extintores',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Equipos de comunicación',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Botiquín de primeros auxilios',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Equipos de entretenimiento',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto: 'El SNGRD fue creado mediante:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Decreto 1072 de 2015',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Ley 1523 de 2012',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Resolución 2400 de 1979',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Ley 9 de 1979',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              'La función principal de la brigada de primeros auxilios es:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Controlar incendios menores',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Brindar atención inmediata a las víctimas y estabilizarlas',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Supervisar las rutas de evacuación',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Gestionar recursos de emergencia',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              'La capacitación continua es esencial para mantener la efectividad de una brigada de emergencia.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              'La brigada de comunicación se encarga de brindar atención médica en emergencias.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
