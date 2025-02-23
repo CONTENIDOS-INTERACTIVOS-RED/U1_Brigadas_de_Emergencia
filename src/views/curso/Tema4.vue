@@ -30,7 +30,7 @@
                   img(src="@/assets/curso/tema4/slider-1.png")
               .col-lg-7
                 h5 Capacitación continua
-                p La capacitación continua es uno de los pilares sobre los que se sostiene la efectividad de una brigada de emergencia. Los miembros de la brigada reciben formación específica en diversos aspectos relacionados con la prevención de riesgos, la gestión de emergencias, el uso de Equipos de Protección Ppersonal (EPP ) y la aplicación de protocolos de evacuación y rescate, entre otros. Esta preparación les permite identificar, evaluar y clasificar las condiciones de riesgo presentes en su entorno, lo que resulta vital para implementar medidas proactivas, que minimicen la posibilidad de incidentes.
+                p La capacitación continua es uno de los pilares sobre los que se sostiene la efectividad de una brigada de emergencia. Los miembros de la brigada reciben formación específica en diversos aspectos relacionados con la prevención de riesgos, la gestión de emergencias, el uso de Equipos de Protección Ppersonal (EPP) y la aplicación de protocolos de evacuación y rescate, entre otros. Esta preparación les permite identificar, evaluar y clasificar las condiciones de riesgo presentes en su entorno, lo que resulta vital para implementar medidas proactivas, que minimicen la posibilidad de incidentes.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5
@@ -54,7 +54,7 @@
                   img(src="@/assets/curso/tema4/slider-4.png")
               .col-lg-7
                 h5 Cultura de prevención y seguridad
-                p El impacto de las brigadas de emergencia trasciende el ámbito inmediato de la organización. Al fomentar una cultura de prevención y seguridad, contribuyen a la concientización general de los funcionarios, los beneficios y ventajas que tiene la brigada. Esto no solo beneficia a los trabajadores, sino que también mejora la productividad y la reputación de la organización, al evidenciar su compromiso con el bienestar de sus empleados y el cumplimiento de normativas de seguridad.
+                p El impacto de las brigadas de emergencia trasciende el ámbito inmediato de la organización. Al fomentar una cultura de prevención y seguridad, contribuyen a la concienciación general sobre la importancia de identificar y gestionar los riesgos en los lugares de trabajo. Esto no solo beneficia a los trabajadores, sino que también mejora la productividad y la reputación de la organización, al evidenciar su compromiso con el bienestar de sus empleados y el cumplimiento de normativas de seguridad.
 
       #t_4_1.titulo-segundo(data-aos="flip-up")
         h2 #[span 4.1] Brigada de evacuación   
@@ -291,7 +291,7 @@
               p Es esencial que los miembros de la brigada conozcan a fondo el funcionamiento y uso adecuado de los diferentes equipos de extinción disponibles, ajustándose al tipo de fuego que puedan enfrentar, ya sea eléctrico, químico o de otro tipo, siguiendo las directrices proporcionadas en su formación.
 
             .div(titulo="Operación de equipos")
-              p En caso de emergencia, el equipo actuará conforme a los protocolos definidos por el organismo encargado de la capacitación. Esto asegura una respuesta organizada y eficaz ante cada situación de riesgo
+              p En caso de emergencia, el equipo actuará conforme a los protocolos definidos por el organismo encargado de la capacitación. Esto asegura una respuesta organizada y eficaz ante cada situación de riesgo.
 
 
       .row.align-items-start.mb-5

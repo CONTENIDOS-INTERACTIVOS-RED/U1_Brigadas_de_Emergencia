@@ -205,7 +205,7 @@ export default {
     {
       termino: 'Prevención',
       significado:
-        'conjunto de acciones dirigidas a evitar que ocurran emergencias o desastres, o a reducir su impacto',
+        'conjunto de acciones dirigidas a evitar que ocurran emergencias o desastres, o a reducir su impacto.',
     },
     {
       termino: 'Primeros Auxilios',
@@ -240,7 +240,7 @@ export default {
     {
       termino: 'Voluntariado',
       significado:
-        'personas que ofrecen su tiempo y habilidades para ayudar en situaciones de emergencia, a menudo sin remuneración',
+        'personas que ofrecen su tiempo y habilidades para ayudar en situaciones de emergencia, a menudo sin remuneración.',
     },
   ],
 }
